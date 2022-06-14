@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,50 +9,114 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Portfolio page</title>
-    <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
-    
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+
 </head>
+
 <body>
-<header class="header">
-    
-    <div class="wrapper header-wrapper">
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a href="#" class="nav-link is-now-link">Home</a>
+    <header class="header">
+
+        <div class="wrapper header-wrapper">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link is-now-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper main-wrapper">
+            <div class="info">
+                <h1 class="h1">Bon Andrei</h1>
+                <p class="who-m-i">Junior Front-End Developer</p>
+                <div class="buttons">
+                    <span class="change-lang-button">RU</span>
+                    <span class="change-lang-button">ENG</span>
+                </div>
+            </div>
+            <img class="photo" src="./assets/img/main_photo.jpg" alt="my photo">
+        </div>
+    </main>
+    <section class="about">
+        <div class="wrapper wrapper_about">
+            <h2 class="heading">About me</h2>
+            <p class="about-me"> Hi, I'm Denis – UX/UI designer from Minsk.
+                I'm interested in design and everything connected with it.
+                I'm studying at courses "Web and mobile design
+                interfaces" in IT-Academy.
+                Ready to implement excellent projects
+                with wonderful people.
+            </p>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="wrapper wrapper_skills">
+            <h2 class="heading">Skills</h2>
+            <h3 class="subtitle">I work in such programs as</h3>
+            <ul class="skills-list">
+                <li class="skills-item">
+                    <img class="skill-img " src="https://cdn-images-1.medium.com/max/1024/1*MJ9Y4_tCTv99Gs_xZYlKrA.png"
+                        alt="">
+                    <h4 class="skill-name">HTML</h4>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">About me</a>
+                <li class="skills-item">
+                    <img class="skill-img " src="https://cdn-images-1.medium.com/max/1024/1*cVLwaiFLrGDzWMJLGNXg8Q.png"
+                        alt="">
+                    <h4 class="skill-name">CSS</h4>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Skills</a>
+                <li class="skills-item">
+                    <img class="skill-img " src="https://cdn-images-1.medium.com/max/1024/1*4jboWpk-1u9eDyCTLZYuoA.png"
+                        alt="">
+                    <h4 class="skill-name">JS</h4>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Contacts</a>
+                <li class="skills-item">
+                    <img class="skill-img git-img"
+                        src="https://dyupuz6787mty.cloudfront.net/assets/img/git-market-symbol.png" alt="">
+                    <h4 class="skill-name">Git</h4>
                 </li>
             </ul>
-        </nav>
-
-    </div>
-</header>
-<main class="main">
-    <div class="wrapper main-wrapper">
-        <div class="info">
-            <h1 class="h1">Bon Andrei</h1>
-            <p class="who-m-i">Junior Front-End Developer</p>
-            <div class="buttons">
-                <span class="change-lang-button">RU</span>
-                <span class="change-lang-button">ENG</span>
-            </div>
         </div>
-        <img class="photo" src="./assets/img/main_photo.jpg" alt="my photo">
-    </div>
-</main>
-    
+    </section>
+    <section class="contacts">
+        <div class="wrapper wrapper-contacts">
+            <h2 class="heading">Contacts</h2>
+            <p class="about-me">Want to know more or just chat?
+                You are welcome!</p>
+            <button class="btn-send">Send message</button>
+            <ul class="socials">
+                <li class="social-item">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </li>
+                <li class="social-item">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </li>
+                <li class="social-item">
+                    <ion-icon name="logo-behance"></ion-icon>
+                </li>
+                <li class="social-item">
+                    <ion-icon name="globe-outline"></ion-icon>
+                </li>
+            </ul>
+        </div>
+    </section>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
